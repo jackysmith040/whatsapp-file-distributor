@@ -47,14 +47,16 @@ Follow these steps to get the application up and running.
 
     ```python
     # Example from config.py
+    # You can have more than one group.
+    # Read my docs for better system design information.
     RULE_MAPPING = [
         {
             "keywords": ["system", "dynamical"],
-            "target_groups": ["iampeace"],
+            "target_groups": ["{group_name}"],
         },
         {
             "keywords": ["end"],
-            "target_groups": ["iampeace"],
+            "target_groups": ["{group_name}"],
         },
     ]
     ```
