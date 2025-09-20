@@ -1,0 +1,12 @@
+chat-list-search = //*[@id="side"]/div[1]/div/div[2]/div/div/div[1]/p
+attach = //*[@id="main"]/footer/div[1]/div/span/div/div[2]/div/div[1]/div/span/div/div/div[1]/div[1]/span
+document = //*[@id="app"]/div[1]/span[6]/div/ul/div/div/div[1]/li/div
+group_selection = //*[@id="pane-side"]/div[1]/div/div/div[2]/div/div/div/div[2]
+
+"send_button": (
+        "xpath",
+        '//*[@id="app"]/div[1]/div[3]/div/div[2]/div[2]/span/div/div/div/div[2]/div/div[2]/div[2]/div/div/span',
+    )
+
+
+//*[@id="app"]/div[1]/div[3]/div/div[2]/div[2]/span/div/div/div/div[2]/div/div[2]/div[2]/div/div/span
