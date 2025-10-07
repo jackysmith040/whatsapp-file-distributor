@@ -1,0 +1,73 @@
+📁 CLONE A REPO (via SSH – recommended)
+→ Get the whole project from GitHub onto your laptop securely.
+git clone git@github.com:your-username/your-repo.git
+
+🔄 CHECK STATUS
+→ See what files you’ve changed or added.
+git status
+
+➕ ADD CHANGES
+→ Tell Git: “Notice these files.”
+git add .
+# (or) git add filename.txt
+
+✅ COMMIT CHANGES
+→ Save a snapshot with a note.
+git commit -m "Brief description of what you changed"
+
+☁️ PUSH TO GITHUB
+→ Send your changes from laptop → GitHub.
+git push origin main
+# Replace "main" with your branch name
+
+⬇️ PULL FROM GITHUB
+→ Get latest changes from GitHub → your laptop.
+git pull origin main
+
+🌿 CREATE A NEW BRANCH (locally)
+→ Make a separate workspace for a new task.
+git checkout -b new-feature
+
+↔️ SWITCH BRANCHES
+→ Jump between workspaces.
+git checkout main
+git checkout new-feature
+
+⬆️ PUSH A NEW BRANCH TO GITHUB
+→ Share your branch online (run once).
+git push -u origin new-feature
+
+👀 SEE ALL BRANCHES
+→ List local + remote branches.
+git branch -a
+
+🔄 UNDO CHANGES (before commit)
+→ Discard edits in a file (back to last commit).
+git restore filename.txt
+# Or undo all: git restore .
+
+↩️ UNDO LAST COMMIT (keep changes)
+→ Undo commit but keep your edits staged.
+git reset --soft HEAD~1
+
+⏪ UNDO LAST COMMIT (lose changes)
+→ Wipe commit AND changes (use carefully!).
+git reset --hard HEAD~1
+
+↩️ SAFE UNDO (after pushing)
+→ Create a new commit that reverses an old one (safe for shared history).
+git revert <commit-hash>
+# Find hash with: git log --oneline
+
+🔀 MERGE A FEATURE INTO MAIN
+→ Combine your work back into the main project.
+git checkout main
+git pull origin main          # Get latest
+git merge new-feature         # Merge your branch
+git push origin main          # Send updated main to GitHub
+
+⚠️ IF MERGE CONFLICTS HAPPEN
+→ Git will mark conflicted files. Edit them, then:
+git add .
+git commit -m "Resolve merge conflict"
+git push origin main
