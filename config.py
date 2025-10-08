@@ -1,20 +1,25 @@
 from pathlib import Path
+from csv_rule_mapper import mapping_rules
 
 # The directory where the script will look for folders containing PDFs.
 home_directory = Path.home()
 DEFAULT_WORKSPACE = home_directory / "Desktop"
 
 # Maps keywords to a LIST of target groups.
-RULE_MAPPING = [
-    {
-        "keywords": ["system", "dynamical"],
-        "target_groups": ["iampeace"],
-    },
-    {
-        "keywords": ["end"],
-        "target_groups": ["iampeace"],
-    },
-]
+# CSV defined rules
+RULE_MAPPING = mapping_rules
+
+# Manually define rules here
+# RULE_MAPPING = [
+#     {
+#         "keywords": ["system", "dynamical"],
+#         "target_groups": ["iampeace"],
+#     },
+#     {
+#         "keywords": ["end"],
+#         "target_groups": ["iampeace"],
+#     },
+# ]
 
 # --- Sending Engine Settings ---
 DEFAULT_STAGGER_MINUTES = 0.08

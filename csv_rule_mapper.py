@@ -12,6 +12,6 @@ def read_rule_csv(csv_path):
             rules.append(rule)
     return rules
 
-# Example
+
 mapping_rules = read_rule_csv('rule_mapping.csv')
-print(mapping_rules)
+# print(mapping_rules)

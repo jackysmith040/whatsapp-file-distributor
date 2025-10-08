@@ -1,76 +1,120 @@
+***
 # WhatsApp PDF Distributor
 
 A Python utility that automates sending PDF files from your desktop to specific WhatsApp groups based on keywords in the filenames. This tool is designed to streamline the process of distributing reports and documents reliably.
 
 ## ✨ Features
 
-  * **Rule-Based Routing**: Uses a simple configuration file (`config.py`) to map filename keywords to one or more WhatsApp groups.
-  * **Interactive Folder Selection**: Prompts you to choose which folder of reports to process each time it runs, making it highly flexible.
-  * [cite\_start]**Prioritized Sending**: Automatically sorts the files to be sent by size, sending the smallest ones first for faster feedback. [cite: 1]
-  * **Persistent Session**: Remembers your WhatsApp login, so you only need to scan the QR code once.
-  * **Modular & Professional Structure**: Built with a clean architecture that separates configuration, services, and the main application logic for easy maintenance.
+- **Rule-Based Routing**: Supports defining filename keyword to WhatsApp group mappings either directly inside `config.py` or externally via a CSV file for dynamic configuration.
+- **Interactive Folder Selection**: Prompts you to choose which folder of reports to process each time it runs, making it highly flexible.
+- **Prioritized Sending**: Automatically sorts files by size, sending the smallest first for faster feedback.
+- **Persistent Session**: Saves your WhatsApp login session, so QR code scanning is only needed once.
+- **Modular \& Professional Structure**: Clean separation between configuration, services, and main app logic for easy maintenance.
+
+
+## 📢 New: CSV-Based Mapping Rules
+
+You can now define your mapping rules externally in a CSV file instead of modifying `RULE_MAPPING` directly in `config.py`. This allows non-programmers to update routing rules easily without touching the source code.
+
+### Example CSV Structure (`rule_mapping.csv`):
+
+| keywords | target_groups |
+| :-- | :-- |
+| system;dynamical | alpha |
+| end | beta;gamma |
+
+- Separate multiple values with semicolons (`;`).
+- The column names correspond to the keys used in the rule dictionaries (`keywords`, `target_groups`).
+- The program parses this CSV and dynamically applies the mappings at runtime.
+- This supports multiple values per key as lists.
+
+
+### How it works
+
+- Each row in the CSV corresponds to one mapping rule.
+- Values in each cell are split by semicolons into a list.
+- Your software uses these dynamic rules to route PDF files to the correct WhatsApp groups based on filename keywords.
+
+***
 
 ## 🚀 Getting Started
 
-Follow these steps to get the application up and running.
-
 ### Prerequisites
 
-  * Python 3.10 or newer.
-  * Google Chrome browser installed.
+- Python 3.10 or newer
+- Google Chrome installed (for WhatsApp Web access)
 
-### Installation & Setup
 
-1.  **Place Files**: Ensure all project files are in a single folder. The structure should look like this:
+### Installation \& Setup
 
-    ```
-    whatsapp_distributor/
-    ├── config.py
-    ├── main.py
-    ├── requirements.txt
-    └── src/
-        └── ...
-    ```
+1. **Place Files**: Ensure all project files are in a single directory, e.g.:
+```
+whatsapp_distributor/
+├── config.py
+├── main.py
+├── requirements.txt
+├── rule_mapping.csv   # (CSV for mapping rules, optional if you want to use CSV input)
+└── src/
+    └── ...
+```
 
-2.  **Install Dependencies**: Open your terminal in the project folder and install the required Python libraries from the `requirements.txt` file.
+2. **Create a Virtual Environment** (Recommended; isolates dependencies)
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+#### Windows
 
-3.  **Configure Your Rules**: Open the **`config.py`** file and edit the `RULE_MAPPING` section. This is where you define which documents go to which groups.
+Open Command Prompt or PowerShell and run:
 
-      * `keywords`: A list of words to look for in the PDF filename (case-insensitive).
-      * `target_groups`: The exact name(s) of the WhatsApp group(s) or contact(s) to send the file to.
+```powershell
+python -m venv venv
+.\venv\Scripts\activate
+```
 
-    <!-- end list -->
 
-    ```python
-    # Example from config.py
-    # You can have more than one group.
-    # Read my docs for better system design information.
-    RULE_MAPPING = [
-        {
-            "keywords": ["system", "dynamical"],
-            "target_groups": ["{group_name}"],
-        },
-        {
-            "keywords": ["end"],
-            "target_groups": ["{group_name}"],
-        },
-    ]
-    ```
+#### MacOS / Linux (Ubuntu, Mint)
 
-## ⚙️ How to Use
+Open Terminal and run:
 
-1.  **Organize Your Files**: Place the folders containing your PDF reports on your Desktop. The script uses your Desktop as the default workspace to look for these folders.
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
 
-2.  **Run the Application**: Open your terminal in the project's root directory and run the main script.
+3. **Install Dependencies**
 
-    ```bash
-    python main.py
-    ```
+Once virtual environment is active, install required packages:
 
-3.  **First-Time Login**: The first time you run the script, a Chrome browser will open. You will need to scan the WhatsApp QR code with your phone to log in. The script will save your session so you won't have to do this again.
+```bash
+pip install -r requirements.txt
+```
 
-4.  **Follow the Prompts**: The script will ask you to select which folder you want to process and will show you a plan of which files will be sent. Confirm the plan to begin the automation.
+4. **Configure Mapping Rules**
+
+- To configure directly in code, edit `RULE_MAPPING` in `config.py`.
+- To configure using CSV, edit `rule_mapping.csv` following the example above.
+
+***
+
+## 📂 Running the Application
+
+Start the app with:
+
+```bash
+python main.py
+```
+
+- On the first run, a Chrome window will open asking you to scan the WhatsApp QR code.
+- The session will be saved so you won’t need to scan again in future runs.
+- You will be prompted to select the folder containing your PDF reports for sending.
+
+***
+
+## 💡 Useful Tips
+
+- Keep your mapping rule keys fixed; only update values either in the CSV or `config.py`.
+- Use semicolons (`;`) within CSV cells to separate multiple keywords or target groups.
+- Always activate your project's virtual environment before running the application to ensure consistent dependencies.
+- Organize your PDF files in clearly named folders on your Desktop for easy selection.
+- For troubleshooting, verify your Chrome browser and Python version meet the prerequisites.
+- If WhatsApp Web changes, updating Chrome or the WhatsApp Web client might be necessary for compatibility.
+
+***
