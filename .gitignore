@@ -6,6 +6,7 @@ __pycache__/
 .Python
 env/
 venv/
+.venv/
 pip-selfcheck.json
 
 # User Data
@@ -15,6 +16,7 @@ chrome_session/
 # IDE files
 .vscode/
 .idea/
+meta-prompts/
 
 # OS files
 .DS_Store
