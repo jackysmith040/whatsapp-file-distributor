@@ -1,0 +1,47 @@
+Thoughts:
+    I want to streamline the process of mapping keywords to the files.
+    I want to add a feauture that let's us place a simple csv file that contains the keyword and files. It should read the columns and structure it to fit the current config python dictionary.
+    
+Current Design:
+    There's a config python file that contains a dictionary with key and value keywords -> files.
+
+Idea Workflow:
+    1. Loads the csv file, (make sure it's in the same directory as the config.py)
+    2. Reads the columns it's values
+    3. Makes sure the data structure of the csv matches the config.
+
+Desing Choice:
+    A very simple OOP. I was thinking we can use a dataclass for the attributes and just use a a class as a container to group csv helper methods.
+    But i'll just go for a simple OOP design with simple methods.
+
+In the config.py 
+The mapping rule is:
+    ---code
+    # Maps keywords to a LIST of target groups.
+    RULE_MAPPING = [
+        {
+            "keywords": ["system", "dynamical"],
+            "target_groups": ["iampeace"],
+        },
+        {
+            "keywords": ["end"],
+            "target_groups": ["iampeace"],
+        },
+    ]
+    ---end 
+
+
+Structuring the csv file:
+    ---csv 
+    keywords,target_groups
+    system;dynamical,alpha
+    end,beta;gamma
+    ---end
+
+To get multiple values we use semicolon as a separator
+keywords          |  target_groups
+------------------+---------------
+system;dynamical  |  alpha        
+end               |  beta;gamma   
+
+This should translate back to the config dictionary structure.

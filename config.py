@@ -1,30 +1,35 @@
 from pathlib import Path
+from csv_rule_mapper import mapping_rules
 
 # The directory where the script will look for folders containing PDFs.
 home_directory = Path.home()
 DEFAULT_WORKSPACE = home_directory / "Desktop"
 
 # Maps keywords to a LIST of target groups.
-RULE_MAPPING = [
-    {
-        "keywords": ["system", "dynamical"],
-        "target_groups": ["iampeace"],
-    },
-    {
-        "keywords": ["end"],
-        "target_groups": ["iampeace"],
-    },
-]
+# CSV defined rules
+RULE_MAPPING = mapping_rules
+
+# Manually define rules here
+# RULE_MAPPING = [
+#     {
+#         "keywords": ["system", "dynamical"],
+#         "target_groups": ["iampeace"],
+#     },
+#     {
+#         "keywords": ["end"],
+#         "target_groups": ["iampeace"],
+#     },
+# ]
 
 # --- Sending Engine Settings ---
-DEFAULT_STAGGER_MINUTES = 0.05
+DEFAULT_STAGGER_MINUTES = 0.08
 
 # --- Message Content ---
 MESSAGE_CAPTION = "Here is the report you requested."
 
 # --- Browser Backend Settings ---
 USER_DATA_DIR = "selenium_user_data"
-HEADLESS_MODE = False
+HEADLESS_MODE = False  # Set to True to run browser in headless mode
 
 # --- Backend Selectors (Simplified) ---
 SELECTORS = {
@@ -43,8 +48,15 @@ SELECTORS = {
         "css",
         "div[data-testid='caption-input-container'] div[data-testid='caption-input']",
     ),
+    # Updated send button selector 
     "send_button": (
         "xpath",
-        '//*[@id="app"]/div[1]/div[3]/div/div[2]/div[2]/span/div/div/div/div[2]/div/div[2]/div[2]/div/div/span',
+        '//*[@id="app"]/div[1]/div/div[3]/div/div[2]/div[2]/div/span/div/div/div/div[2]/div/div[2]/div[2]/div/div',
     ),
+    # Previous (old) send button selector:
+    # "send_button": (
+    #     "xpath",
+    #     '//*[@id="app"]/div[1]/div[3]/div/div[2]/div[2]/span/div/div/div/div[2]/div/div[2]/div[2]/div/div/span',
+    # ),
 }
+
