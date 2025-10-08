@@ -77,7 +77,7 @@ AFTER MERGING:
 git branch -d branch-name
 
 → To delete from remote laptop → GitHub:
-git push --delete origin branch-
+git push --delete origin branch-name
 
 OPTIONAL
 → To get rid of remote tracking branches:
