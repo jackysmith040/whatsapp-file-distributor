@@ -71,3 +71,14 @@ git push origin main          # Send updated main to GitHub
 git add .
 git commit -m "Resolve merge conflict"
 git push origin main
+
+AFTER MERGING:
+→ To delete locally:
+git branch -d branch-name
+
+→ To delete from remote laptop → GitHub:
+git push --delete origin branch-
+
+OPTIONAL
+→ To get rid of remote tracking branches:
+git remote prune origin
