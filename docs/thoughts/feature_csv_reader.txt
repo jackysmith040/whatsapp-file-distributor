@@ -29,3 +29,19 @@ The mapping rule is:
         },
     ]
     ---end 
+
+
+Structuring the csv file:
+    ---csv 
+    keywords,target_groups
+    system;dynamical,alpha
+    end,beta;gamma
+    ---end
+
+To get multiple values we use semicolon as a separator
+keywords          |  target_groups
+------------------+---------------
+system;dynamical  |  alpha        
+end               |  beta;gamma   
+
+This should translate back to the config dictionary structure.

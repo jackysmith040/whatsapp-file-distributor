@@ -17,7 +17,7 @@ RULE_MAPPING = [
 ]
 
 # --- Sending Engine Settings ---
-DEFAULT_STAGGER_MINUTES = 0.05
+DEFAULT_STAGGER_MINUTES = 0.08
 
 # --- Message Content ---
 MESSAGE_CAPTION = "Here is the report you requested."
