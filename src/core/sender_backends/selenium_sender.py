@@ -85,7 +85,7 @@ class SeleniumSender:
             self.driver.find_element(by, file_input_selector).send_keys(
                 str(file_path.resolve())
             )
-
+            time.sleep(2)  # Wait for the file to be processed
             # caption_by_str, caption_selector = SELECTORS["caption_box"]
             # by = By.CSS_SELECTOR if caption_by_str == "css" else By.XPATH
             # caption_box = self.wait.until(
@@ -96,6 +96,7 @@ class SeleniumSender:
             send_by_str, send_selector = SELECTORS["send_button"]
             by = By.CSS_SELECTOR if send_by_str == "css" else By.XPATH
             self.wait.until(EC.element_to_be_clickable((by, send_selector))).click()
+            time.sleep(1)  # Ensure the send action is processed
 
             ic(f"✅ Send command issued for '{file_path.name}'")
             return True

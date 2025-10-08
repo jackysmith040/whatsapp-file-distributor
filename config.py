@@ -29,7 +29,7 @@ MESSAGE_CAPTION = "Here is the report you requested."
 
 # --- Browser Backend Settings ---
 USER_DATA_DIR = "selenium_user_data"
-HEADLESS_MODE = False
+HEADLESS_MODE = False  # Set to True to run browser in headless mode
 
 # --- Backend Selectors (Simplified) ---
 SELECTORS = {
@@ -48,8 +48,15 @@ SELECTORS = {
         "css",
         "div[data-testid='caption-input-container'] div[data-testid='caption-input']",
     ),
+    # Updated send button selector 
     "send_button": (
         "xpath",
-        '//*[@id="app"]/div[1]/div[3]/div/div[2]/div[2]/span/div/div/div/div[2]/div/div[2]/div[2]/div/div/span',
+        '//*[@id="app"]/div[1]/div/div[3]/div/div[2]/div[2]/div/span/div/div/div/div[2]/div/div[2]/div[2]/div/div',
     ),
+    # Previous (old) send button selector:
+    # "send_button": (
+    #     "xpath",
+    #     '//*[@id="app"]/div[1]/div[3]/div/div[2]/div[2]/span/div/div/div/div[2]/div/div[2]/div[2]/div/div/span',
+    # ),
 }
+

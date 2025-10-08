@@ -1,0 +1,441 @@
+2025-10-08 02:10:56,499 - INFO - --- WhatsApp PDF Distributor v4.0 ---
+2025-10-08 02:11:06,008 - INFO - Scanning for PDF files in 'PAST EXAMS'...
+2025-10-08 02:11:06,009 - INFO - Found 5 PDF file(s). Applying mapping rules...
+2025-10-08 02:11:06,010 - INFO - Hydrating queue with file sizes...
+2025-10-08 02:11:06,010 - INFO - Sorting dispatch queue with 4 items by file size.
+2025-10-08 02:13:14,822 - INFO - Processing item 1/4: Send 'DYNAMICAL systems-questions type 2.pdf' to 'iampeace'
+2025-10-08 02:13:14,822 - INFO - Current group is 'None'. Target is 'iampeace'. Switching chats.
+2025-10-08 02:13:53,982 - ERROR - Could not attach or send file. A selector may be invalid. Error: Message: 
+Stacktrace:
+#0 0x61ab6e307fba <unknown>
+#1 0x61ab6dd8c6d0 <unknown>
+#2 0x61ab6ddde2aa <unknown>
+#3 0x61ab6ddde541 <unknown>
+#4 0x61ab6de2c6c4 <unknown>
+#5 0x61ab6de03e5d <unknown>
+#6 0x61ab6de29b54 <unknown>
+#7 0x61ab6de03c03 <unknown>
+#8 0x61ab6ddd07a8 <unknown>
+#9 0x61ab6ddd1421 <unknown>
+#10 0x61ab6e2ccb28 <unknown>
+#11 0x61ab6e2d087f <unknown>
+#12 0x61ab6e2b4c49 <unknown>
+#13 0x61ab6e2d1405 <unknown>
+#14 0x61ab6e29a4ff <unknown>
+#15 0x61ab6e2f5258 <unknown>
+#16 0x61ab6e2f5432 <unknown>
+#17 0x61ab6e306fa3 <unknown>
+#18 0x786702e9caa4 <unknown>
+#19 0x786702f29c3c <unknown>
+
+2025-10-08 02:13:56,017 - INFO - Waiting for 4.8 seconds...
+2025-10-08 02:14:00,858 - INFO - Processing item 2/4: Send 'END OF SEM 2020.pdf' to 'iampeace'
+2025-10-08 02:14:00,860 - INFO - Current group is 'None'. Target is 'iampeace'. Switching chats.
+2025-10-08 02:14:49,190 - ERROR - Could not attach or send file. A selector may be invalid. Error: Message: 
+Stacktrace:
+#0 0x61ab6e307fba <unknown>
+#1 0x61ab6dd8c6d0 <unknown>
+#2 0x61ab6ddde2aa <unknown>
+#3 0x61ab6ddde541 <unknown>
+#4 0x61ab6de2c6c4 <unknown>
+#5 0x61ab6de03e5d <unknown>
+#6 0x61ab6de29b54 <unknown>
+#7 0x61ab6de03c03 <unknown>
+#8 0x61ab6ddd07a8 <unknown>
+#9 0x61ab6ddd1421 <unknown>
+#10 0x61ab6e2ccb28 <unknown>
+#11 0x61ab6e2d087f <unknown>
+#12 0x61ab6e2b4c49 <unknown>
+#13 0x61ab6e2d1405 <unknown>
+#14 0x61ab6e29a4ff <unknown>
+#15 0x61ab6e2f5258 <unknown>
+#16 0x61ab6e2f5432 <unknown>
+#17 0x61ab6e306fa3 <unknown>
+#18 0x786702e9caa4 <unknown>
+#19 0x786702f29c3c <unknown>
+
+2025-10-08 02:14:50,078 - INFO - Waiting for 4.8 seconds...
+2025-10-08 02:14:54,879 - INFO - Processing item 3/4: Send 'END OF SEM.pdf' to 'iampeace'
+2025-10-08 02:14:54,880 - INFO - Current group is 'None'. Target is 'iampeace'. Switching chats.
+2025-10-08 02:14:56,098 - CRITICAL - A critical error occurred in the main application: 'NoneType' object has no attribute 'is_displayed'
+2025-10-08 02:14:57,003 - INFO - --- Application Finished ---
+2025-10-08 02:17:07,313 - INFO - --- WhatsApp PDF Distributor v4.0 ---
+2025-10-08 02:17:12,679 - INFO - Scanning for PDF files in 'PAST EXAMS'...
+2025-10-08 02:17:12,680 - INFO - Found 5 PDF file(s). Applying mapping rules...
+2025-10-08 02:17:12,680 - INFO - Hydrating queue with file sizes...
+2025-10-08 02:17:12,680 - INFO - Sorting dispatch queue with 4 items by file size.
+2025-10-08 02:17:54,696 - INFO - Processing item 1/4: Send 'DYNAMICAL systems-questions type 2.pdf' to 'iampeace'
+2025-10-08 02:17:54,696 - INFO - Current group is 'None'. Target is 'iampeace'. Switching chats.
+2025-10-08 02:18:30,484 - ERROR - Could not attach or send file. A selector may be invalid. Error: Message: 
+Stacktrace:
+#0 0x5a70d74befba <unknown>
+#1 0x5a70d6f436d0 <unknown>
+#2 0x5a70d6f952aa <unknown>
+#3 0x5a70d6f95541 <unknown>
+#4 0x5a70d6fe36c4 <unknown>
+#5 0x5a70d6fbae5d <unknown>
+#6 0x5a70d6fe0b54 <unknown>
+#7 0x5a70d6fbac03 <unknown>
+#8 0x5a70d6f877a8 <unknown>
+#9 0x5a70d6f88421 <unknown>
+#10 0x5a70d7483b28 <unknown>
+#11 0x5a70d748787f <unknown>
+#12 0x5a70d746bc49 <unknown>
+#13 0x5a70d7488405 <unknown>
+#14 0x5a70d74514ff <unknown>
+#15 0x5a70d74ac258 <unknown>
+#16 0x5a70d74ac432 <unknown>
+#17 0x5a70d74bdfa3 <unknown>
+#18 0x74cfc209caa4 <unknown>
+#19 0x74cfc2129c3c <unknown>
+
+2025-10-08 02:18:31,460 - INFO - Waiting for 3.0 seconds...
+2025-10-08 02:18:34,490 - INFO - Processing item 2/4: Send 'END OF SEM 2020.pdf' to 'iampeace'
+2025-10-08 02:18:34,490 - INFO - Current group is 'None'. Target is 'iampeace'. Switching chats.
+2025-10-08 02:20:02,953 - ERROR - Could not attach or send file. A selector may be invalid. Error: Message: 
+Stacktrace:
+#0 0x5a70d74befba <unknown>
+#1 0x5a70d6f436d0 <unknown>
+#2 0x5a70d6f952aa <unknown>
+#3 0x5a70d6f95541 <unknown>
+#4 0x5a70d6fe36c4 <unknown>
+#5 0x5a70d6fbae5d <unknown>
+#6 0x5a70d6fe0b54 <unknown>
+#7 0x5a70d6fbac03 <unknown>
+#8 0x5a70d6f877a8 <unknown>
+#9 0x5a70d6f88421 <unknown>
+#10 0x5a70d7483b28 <unknown>
+#11 0x5a70d748787f <unknown>
+#12 0x5a70d746bc49 <unknown>
+#13 0x5a70d7488405 <unknown>
+#14 0x5a70d74514ff <unknown>
+#15 0x5a70d74ac258 <unknown>
+#16 0x5a70d74ac432 <unknown>
+#17 0x5a70d74bdfa3 <unknown>
+#18 0x74cfc209caa4 <unknown>
+#19 0x74cfc2129c3c <unknown>
+
+2025-10-08 02:20:06,406 - INFO - Waiting for 3.0 seconds...
+2025-10-08 02:20:09,414 - INFO - Processing item 3/4: Send 'END OF SEM.pdf' to 'iampeace'
+2025-10-08 02:20:09,414 - INFO - Current group is 'None'. Target is 'iampeace'. Switching chats.
+2025-10-08 02:20:14,872 - CRITICAL - A critical error occurred in the main application: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-10-08 02:20:14,877 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7da93ce030e0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/23fcdd1c9570e89443e3cefbb89b9485
+2025-10-08 02:20:14,879 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7da93ce03290>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/23fcdd1c9570e89443e3cefbb89b9485
+2025-10-08 02:20:14,880 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7da93cdbb590>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/23fcdd1c9570e89443e3cefbb89b9485
+2025-10-08 02:20:14,882 - INFO - --- Application Finished ---
+2025-10-08 02:26:15,693 - INFO - --- WhatsApp PDF Distributor v4.0 ---
+2025-10-08 02:26:20,140 - INFO - Scanning for PDF files in 'PAST EXAMS'...
+2025-10-08 02:26:20,140 - INFO - Found 5 PDF file(s). Applying mapping rules...
+2025-10-08 02:26:20,141 - INFO - Hydrating queue with file sizes...
+2025-10-08 02:26:20,141 - INFO - Sorting dispatch queue with 4 items by file size.
+2025-10-08 02:27:43,248 - INFO - Processing item 1/4: Send 'DYNAMICAL systems-questions type 2.pdf' to 'iampeace'
+2025-10-08 02:27:43,249 - INFO - Current group is 'None'. Target is 'iampeace'. Switching chats.
+2025-10-08 02:28:53,220 - ERROR - Could not attach or send file. A selector may be invalid. Error: Message: 
+Stacktrace:
+#0 0x596c6059ffba <unknown>
+#1 0x596c600246d0 <unknown>
+#2 0x596c600762aa <unknown>
+#3 0x596c60076541 <unknown>
+#4 0x596c600c46c4 <unknown>
+#5 0x596c6009be5d <unknown>
+#6 0x596c600c1b54 <unknown>
+#7 0x596c6009bc03 <unknown>
+#8 0x596c600687a8 <unknown>
+#9 0x596c60069421 <unknown>
+#10 0x596c60564b28 <unknown>
+#11 0x596c6056887f <unknown>
+#12 0x596c6054cc49 <unknown>
+#13 0x596c60569405 <unknown>
+#14 0x596c605324ff <unknown>
+#15 0x596c6058d258 <unknown>
+#16 0x596c6058d432 <unknown>
+#17 0x596c6059efa3 <unknown>
+#18 0x7b122f29caa4 <unknown>
+#19 0x7b122f329c3c <unknown>
+
+2025-10-08 02:28:58,700 - INFO - Waiting for 3.0 seconds...
+2025-10-08 02:29:01,815 - INFO - Processing item 2/4: Send 'END OF SEM 2020.pdf' to 'iampeace'
+2025-10-08 02:29:01,816 - INFO - Current group is 'None'. Target is 'iampeace'. Switching chats.
+2025-10-08 02:29:32,267 - ERROR - Could not find or click on chat 'iampeace'. Error: Message: 
+Stacktrace:
+#0 0x596c6059ffba <unknown>
+#1 0x596c600246d0 <unknown>
+#2 0x596c600762aa <unknown>
+#3 0x596c60076541 <unknown>
+#4 0x596c600c46c4 <unknown>
+#5 0x596c6009be5d <unknown>
+#6 0x596c600c1b54 <unknown>
+#7 0x596c6009bc03 <unknown>
+#8 0x596c600687a8 <unknown>
+#9 0x596c60069421 <unknown>
+#10 0x596c60564b28 <unknown>
+#11 0x596c6056887f <unknown>
+#12 0x596c6054cc49 <unknown>
+#13 0x596c60569405 <unknown>
+#14 0x596c605324ff <unknown>
+#15 0x596c6058d258 <unknown>
+#16 0x596c6058d432 <unknown>
+#17 0x596c6059efa3 <unknown>
+#18 0x7b122f29caa4 <unknown>
+#19 0x7b122f329c3c <unknown>
+
+2025-10-08 02:29:33,865 - ERROR - Skipping file for 'iampeace' as chat could not be selected.
+2025-10-08 02:29:33,867 - INFO - Processing item 3/4: Send 'END OF SEM.pdf' to 'iampeace'
+2025-10-08 02:29:33,870 - INFO - Current group is 'None'. Target is 'iampeace'. Switching chats.
+2025-10-08 02:30:37,207 - ERROR - Could not attach or send file. A selector may be invalid. Error: Message: 
+Stacktrace:
+#0 0x596c6059ffba <unknown>
+#1 0x596c600246d0 <unknown>
+#2 0x596c600762aa <unknown>
+#3 0x596c60076541 <unknown>
+#4 0x596c600c46c4 <unknown>
+#5 0x596c6009be5d <unknown>
+#6 0x596c600c1b54 <unknown>
+#7 0x596c6009bc03 <unknown>
+#8 0x596c600687a8 <unknown>
+#9 0x596c60069421 <unknown>
+#10 0x596c60564b28 <unknown>
+#11 0x596c6056887f <unknown>
+#12 0x596c6054cc49 <unknown>
+#13 0x596c60569405 <unknown>
+#14 0x596c605324ff <unknown>
+#15 0x596c6058d258 <unknown>
+#16 0x596c6058d432 <unknown>
+#17 0x596c6059efa3 <unknown>
+#18 0x7b122f29caa4 <unknown>
+#19 0x7b122f329c3c <unknown>
+
+2025-10-08 02:30:38,514 - INFO - Waiting for 3.0 seconds...
+2025-10-08 02:30:41,517 - INFO - Processing item 4/4: Send 'DYNAMICAL SYSTEMS Midsem questions-type1.pdf' to 'iampeace'
+2025-10-08 02:30:41,517 - INFO - Current group is 'None'. Target is 'iampeace'. Switching chats.
+2025-10-08 02:31:32,397 - ERROR - Could not attach or send file. A selector may be invalid. Error: Message: 
+Stacktrace:
+#0 0x596c6059ffba <unknown>
+#1 0x596c600246d0 <unknown>
+#2 0x596c600762aa <unknown>
+#3 0x596c60076541 <unknown>
+#4 0x596c600c46c4 <unknown>
+#5 0x596c6009be5d <unknown>
+#6 0x596c600c1b54 <unknown>
+#7 0x596c6009bc03 <unknown>
+#8 0x596c600687a8 <unknown>
+#9 0x596c60069421 <unknown>
+#10 0x596c60564b28 <unknown>
+#11 0x596c6056887f <unknown>
+#12 0x596c6054cc49 <unknown>
+#13 0x596c60569405 <unknown>
+#14 0x596c605324ff <unknown>
+#15 0x596c6058d258 <unknown>
+#16 0x596c6058d432 <unknown>
+#17 0x596c6059efa3 <unknown>
+#18 0x7b122f29caa4 <unknown>
+#19 0x7b122f329c3c <unknown>
+
+2025-10-08 02:31:34,543 - INFO - --- Application Finished ---
+2025-10-08 02:32:28,641 - INFO - --- WhatsApp PDF Distributor v4.0 ---
+2025-10-08 02:32:31,820 - INFO - Scanning for PDF files in 'PAST EXAMS'...
+2025-10-08 02:32:31,821 - INFO - Found 5 PDF file(s). Applying mapping rules...
+2025-10-08 02:32:31,821 - INFO - Hydrating queue with file sizes...
+2025-10-08 02:32:31,821 - INFO - Sorting dispatch queue with 4 items by file size.
+2025-10-08 02:33:01,805 - INFO - Processing item 1/4: Send 'DYNAMICAL systems-questions type 2.pdf' to 'iampeace'
+2025-10-08 02:33:01,805 - INFO - Current group is 'None'. Target is 'iampeace'. Switching chats.
+2025-10-08 02:33:43,834 - ERROR - Could not attach or send file. A selector may be invalid. Error: Message: 
+Stacktrace:
+#0 0x5c3ccd4a3fba <unknown>
+#1 0x5c3cccf286d0 <unknown>
+#2 0x5c3cccf7a2aa <unknown>
+#3 0x5c3cccf7a541 <unknown>
+#4 0x5c3cccfc86c4 <unknown>
+#5 0x5c3cccf9fe5d <unknown>
+#6 0x5c3cccfc5b54 <unknown>
+#7 0x5c3cccf9fc03 <unknown>
+#8 0x5c3cccf6c7a8 <unknown>
+#9 0x5c3cccf6d421 <unknown>
+#10 0x5c3ccd468b28 <unknown>
+#11 0x5c3ccd46c87f <unknown>
+#12 0x5c3ccd450c49 <unknown>
+#13 0x5c3ccd46d405 <unknown>
+#14 0x5c3ccd4364ff <unknown>
+#15 0x5c3ccd491258 <unknown>
+#16 0x5c3ccd491432 <unknown>
+#17 0x5c3ccd4a2fa3 <unknown>
+#18 0x7d99df49caa4 <unknown>
+#19 0x7d99df529c3c <unknown>
+
+2025-10-08 02:33:48,127 - INFO - Waiting for 3.0 seconds...
+2025-10-08 02:33:51,182 - INFO - Processing item 2/4: Send 'END OF SEM 2020.pdf' to 'iampeace'
+2025-10-08 02:33:51,183 - INFO - Current group is 'None'. Target is 'iampeace'. Switching chats.
+2025-10-08 02:35:02,099 - ERROR - Could not attach or send file. A selector may be invalid. Error: Message: 
+Stacktrace:
+#0 0x5c3ccd4a3fba <unknown>
+#1 0x5c3cccf286d0 <unknown>
+#2 0x5c3cccf7a2aa <unknown>
+#3 0x5c3cccf7a541 <unknown>
+#4 0x5c3cccfc86c4 <unknown>
+#5 0x5c3cccf9fe5d <unknown>
+#6 0x5c3cccfc5b54 <unknown>
+#7 0x5c3cccf9fc03 <unknown>
+#8 0x5c3cccf6c7a8 <unknown>
+#9 0x5c3cccf6d421 <unknown>
+#10 0x5c3ccd468b28 <unknown>
+#11 0x5c3ccd46c87f <unknown>
+#12 0x5c3ccd450c49 <unknown>
+#13 0x5c3ccd46d405 <unknown>
+#14 0x5c3ccd4364ff <unknown>
+#15 0x5c3ccd491258 <unknown>
+#16 0x5c3ccd491432 <unknown>
+#17 0x5c3ccd4a2fa3 <unknown>
+#18 0x7d99df49caa4 <unknown>
+#19 0x7d99df529c3c <unknown>
+
+2025-10-08 02:35:05,780 - INFO - Waiting for 3.0 seconds...
+2025-10-08 02:35:08,784 - INFO - Processing item 3/4: Send 'END OF SEM.pdf' to 'iampeace'
+2025-10-08 02:35:08,785 - INFO - Current group is 'None'. Target is 'iampeace'. Switching chats.
+2025-10-08 02:36:21,105 - ERROR - Could not attach or send file. A selector may be invalid. Error: Message: 
+Stacktrace:
+#0 0x5c3ccd4a3fba <unknown>
+#1 0x5c3cccf286d0 <unknown>
+#2 0x5c3cccf7a2aa <unknown>
+#3 0x5c3cccf7a541 <unknown>
+#4 0x5c3cccfc86c4 <unknown>
+#5 0x5c3cccf9fe5d <unknown>
+#6 0x5c3cccfc5b54 <unknown>
+#7 0x5c3cccf9fc03 <unknown>
+#8 0x5c3cccf6c7a8 <unknown>
+#9 0x5c3cccf6d421 <unknown>
+#10 0x5c3ccd468b28 <unknown>
+#11 0x5c3ccd46c87f <unknown>
+#12 0x5c3ccd450c49 <unknown>
+#13 0x5c3ccd46d405 <unknown>
+#14 0x5c3ccd4364ff <unknown>
+#15 0x5c3ccd491258 <unknown>
+#16 0x5c3ccd491432 <unknown>
+#17 0x5c3ccd4a2fa3 <unknown>
+#18 0x7d99df49caa4 <unknown>
+#19 0x7d99df529c3c <unknown>
+
+2025-10-08 02:36:24,699 - INFO - Waiting for 3.0 seconds...
+2025-10-08 02:36:27,700 - INFO - Processing item 4/4: Send 'DYNAMICAL SYSTEMS Midsem questions-type1.pdf' to 'iampeace'
+2025-10-08 02:36:27,701 - INFO - Current group is 'None'. Target is 'iampeace'. Switching chats.
+2025-10-08 02:37:28,946 - ERROR - Could not attach or send file. A selector may be invalid. Error: Message: 
+Stacktrace:
+#0 0x5c3ccd4a3fba <unknown>
+#1 0x5c3cccf286d0 <unknown>
+#2 0x5c3cccf7a2aa <unknown>
+#3 0x5c3cccf7a541 <unknown>
+#4 0x5c3cccfc86c4 <unknown>
+#5 0x5c3cccf9fe5d <unknown>
+#6 0x5c3cccfc5b54 <unknown>
+#7 0x5c3cccf9fc03 <unknown>
+#8 0x5c3cccf6c7a8 <unknown>
+#9 0x5c3cccf6d421 <unknown>
+#10 0x5c3ccd468b28 <unknown>
+#11 0x5c3ccd46c87f <unknown>
+#12 0x5c3ccd450c49 <unknown>
+#13 0x5c3ccd46d405 <unknown>
+#14 0x5c3ccd4364ff <unknown>
+#15 0x5c3ccd491258 <unknown>
+#16 0x5c3ccd491432 <unknown>
+#17 0x5c3ccd4a2fa3 <unknown>
+#18 0x7d99df49caa4 <unknown>
+#19 0x7d99df529c3c <unknown>
+
+2025-10-08 02:37:34,277 - INFO - --- Application Finished ---
+2025-10-08 02:37:43,298 - INFO - --- WhatsApp PDF Distributor v4.0 ---
+2025-10-08 02:38:03,429 - INFO - Scanning for PDF files in 'PAST EXAMS'...
+2025-10-08 02:38:03,430 - INFO - Found 5 PDF file(s). Applying mapping rules...
+2025-10-08 02:38:03,430 - INFO - Hydrating queue with file sizes...
+2025-10-08 02:38:03,430 - INFO - Sorting dispatch queue with 4 items by file size.
+2025-10-08 02:38:38,078 - INFO - Processing item 1/4: Send 'DYNAMICAL systems-questions type 2.pdf' to 'iampeace'
+2025-10-08 02:38:38,079 - INFO - Current group is 'None'. Target is 'iampeace'. Switching chats.
+2025-10-08 02:39:18,965 - ERROR - Could not attach or send file. A selector may be invalid. Error: Message: 
+Stacktrace:
+#0 0x5e374b592fba <unknown>
+#1 0x5e374b0176d0 <unknown>
+#2 0x5e374b0692aa <unknown>
+#3 0x5e374b069541 <unknown>
+#4 0x5e374b0b76c4 <unknown>
+#5 0x5e374b08ee5d <unknown>
+#6 0x5e374b0b4b54 <unknown>
+#7 0x5e374b08ec03 <unknown>
+#8 0x5e374b05b7a8 <unknown>
+#9 0x5e374b05c421 <unknown>
+#10 0x5e374b557b28 <unknown>
+#11 0x5e374b55b87f <unknown>
+#12 0x5e374b53fc49 <unknown>
+#13 0x5e374b55c405 <unknown>
+#14 0x5e374b5254ff <unknown>
+#15 0x5e374b580258 <unknown>
+#16 0x5e374b580432 <unknown>
+#17 0x5e374b591fa3 <unknown>
+#18 0x7ccf0569caa4 <unknown>
+#19 0x7ccf05729c3c <unknown>
+
+2025-10-08 02:39:24,272 - INFO - Waiting for 3.0 seconds...
+2025-10-08 02:39:27,337 - INFO - Processing item 2/4: Send 'END OF SEM 2020.pdf' to 'iampeace'
+2025-10-08 02:39:27,337 - INFO - Current group is 'None'. Target is 'iampeace'. Switching chats.
+2025-10-08 02:40:44,372 - ERROR - Could not attach or send file. A selector may be invalid. Error: Message: 
+Stacktrace:
+#0 0x5e374b592fba <unknown>
+#1 0x5e374b0176d0 <unknown>
+#2 0x5e374b0692aa <unknown>
+#3 0x5e374b069541 <unknown>
+#4 0x5e374b0b76c4 <unknown>
+#5 0x5e374b08ee5d <unknown>
+#6 0x5e374b0b4b54 <unknown>
+#7 0x5e374b08ec03 <unknown>
+#8 0x5e374b05b7a8 <unknown>
+#9 0x5e374b05c421 <unknown>
+#10 0x5e374b557b28 <unknown>
+#11 0x5e374b55b87f <unknown>
+#12 0x5e374b53fc49 <unknown>
+#13 0x5e374b55c405 <unknown>
+#14 0x5e374b5254ff <unknown>
+#15 0x5e374b580258 <unknown>
+#16 0x5e374b580432 <unknown>
+#17 0x5e374b591fa3 <unknown>
+#18 0x7ccf0569caa4 <unknown>
+#19 0x7ccf05729c3c <unknown>
+
+2025-10-08 02:40:49,754 - INFO - Waiting for 3.0 seconds...
+2025-10-08 02:40:52,760 - INFO - Processing item 3/4: Send 'END OF SEM.pdf' to 'iampeace'
+2025-10-08 02:40:52,761 - INFO - Current group is 'None'. Target is 'iampeace'. Switching chats.
+2025-10-08 02:41:02,134 - CRITICAL - A critical error occurred in the main application: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-10-08 02:41:02,136 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x77bb8362b050>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/1aa22f40ce22d0f100e59a2eb8978394
+2025-10-08 02:41:02,138 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x77bb8362b1d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/1aa22f40ce22d0f100e59a2eb8978394
+2025-10-08 02:41:02,140 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x77bb8362b350>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/1aa22f40ce22d0f100e59a2eb8978394
+2025-10-08 02:41:02,141 - INFO - --- Application Finished ---
+2025-10-08 02:41:37,679 - INFO - --- WhatsApp PDF Distributor v4.0 ---
+2025-10-08 02:41:42,214 - INFO - Scanning for PDF files in 'PAST EXAMS'...
+2025-10-08 02:41:42,214 - INFO - Found 5 PDF file(s). Applying mapping rules...
+2025-10-08 02:41:42,215 - INFO - Hydrating queue with file sizes...
+2025-10-08 02:41:42,215 - INFO - Sorting dispatch queue with 4 items by file size.
+2025-10-08 02:42:06,569 - INFO - Processing item 1/4: Send 'DYNAMICAL systems-questions type 2.pdf' to 'iampeace'
+2025-10-08 02:42:06,570 - INFO - Current group is 'None'. Target is 'iampeace'. Switching chats.
+2025-10-08 02:42:16,819 - INFO - Waiting for 3.0 seconds...
+2025-10-08 02:42:19,857 - INFO - Processing item 2/4: Send 'END OF SEM 2020.pdf' to 'iampeace'
+2025-10-08 02:42:19,857 - INFO - Target group 'iampeace' is already active. Skipping search.
+2025-10-08 02:42:24,469 - INFO - Waiting for 3.0 seconds...
+2025-10-08 02:42:27,470 - INFO - Processing item 3/4: Send 'END OF SEM.pdf' to 'iampeace'
+2025-10-08 02:42:27,470 - INFO - Target group 'iampeace' is already active. Skipping search.
+2025-10-08 02:42:31,999 - INFO - Waiting for 3.0 seconds...
+2025-10-08 02:42:35,001 - INFO - Processing item 4/4: Send 'DYNAMICAL SYSTEMS Midsem questions-type1.pdf' to 'iampeace'
+2025-10-08 02:42:35,001 - INFO - Target group 'iampeace' is already active. Skipping search.
+2025-10-08 02:42:40,144 - INFO - --- Application Finished ---
+2025-10-08 02:43:32,860 - INFO - --- WhatsApp PDF Distributor v4.0 ---
+2025-10-08 02:43:37,126 - INFO - Scanning for PDF files in 'PAST EXAMS'...
+2025-10-08 02:43:37,127 - INFO - Found 5 PDF file(s). Applying mapping rules...
+2025-10-08 02:43:37,127 - INFO - Hydrating queue with file sizes...
+2025-10-08 02:43:37,127 - INFO - Sorting dispatch queue with 4 items by file size.
+2025-10-08 02:43:58,238 - INFO - Processing item 1/4: Send 'DYNAMICAL systems-questions type 2.pdf' to 'iampeace'
+2025-10-08 02:43:58,239 - INFO - Current group is 'None'. Target is 'iampeace'. Switching chats.
+2025-10-08 02:44:10,562 - INFO - Waiting for 4.8 seconds...
+2025-10-08 02:44:15,393 - INFO - Processing item 2/4: Send 'END OF SEM 2020.pdf' to 'iampeace'
+2025-10-08 02:44:15,393 - INFO - Target group 'iampeace' is already active. Skipping search.
+2025-10-08 02:44:19,883 - INFO - Waiting for 4.8 seconds...
+2025-10-08 02:44:24,685 - INFO - Processing item 3/4: Send 'END OF SEM.pdf' to 'iampeace'
+2025-10-08 02:44:24,685 - INFO - Target group 'iampeace' is already active. Skipping search.
+2025-10-08 02:44:29,185 - INFO - Waiting for 4.8 seconds...
+2025-10-08 02:44:33,987 - INFO - Processing item 4/4: Send 'DYNAMICAL SYSTEMS Midsem questions-type1.pdf' to 'iampeace'
+2025-10-08 02:44:33,987 - INFO - Target group 'iampeace' is already active. Skipping search.
+2025-10-08 02:44:39,013 - INFO - --- Application Finished ---
