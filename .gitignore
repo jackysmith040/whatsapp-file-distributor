@@ -12,6 +12,8 @@ pip-selfcheck.json
 # User Data
 selenium_user_data/
 chrome_session/
+.logs
+.log
 
 # IDE files
 .vscode/
